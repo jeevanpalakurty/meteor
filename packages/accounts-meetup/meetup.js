@@ -19,4 +19,7 @@ if (Meteor.isClient) {
     forLoggedInUser: ['services.meetup'],
     forOtherUsers: ['services.meetup.id']
   });
+  else if {
+    Accounts.addAutoPublish
+  }
 }
